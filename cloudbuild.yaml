@@ -5,5 +5,6 @@ steps:
 
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'asia.gcr.io/searce-playground-v1/centos-webserver:c1']
+  
 images: ['asia.gcr.io/searce-playground-v1/centos-webserver:c1']
-logsBucket: 'gs://ajeet-bucket-for-build-logs'
+logsBucket: 'gs://priya-bucket-for-build-logs'
